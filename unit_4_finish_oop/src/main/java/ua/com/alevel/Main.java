@@ -11,9 +11,21 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        MainController mainController = new MainController();
-        mainController.start();
+//        MainController mainController = new MainController();
+//        mainController.start();
 
+        String s = "fgdg87fdd8";
+
+        char[] charArray = s.toCharArray();
+        for (int i = 0; i < charArray.length; i++) {
+            byte b = (byte) charArray[i];
+            if (b >= 48 && b <= 57) {
+                System.out.println("i = " + charArray[i]);
+            }
+        }
+
+        String res = s.replaceAll("[A-Za-z]", "");
+        System.out.println("res = " + res);
 
         // Student student = new Student(); Success
         // BaseEntity baseEntity = new Student(); Success
