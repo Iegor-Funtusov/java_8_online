@@ -58,6 +58,7 @@ public class MainController {
         for (int i = 0; i < students.length; i++) {
             Student student = students[i];
             if (student != null) {
+                System.out.println("id = " + student.getId());
                 System.out.println("first name = " + student.getFirstName());
                 System.out.println("last name = " + student.getLastName());
                 System.out.println("age = " + student.getAge());
