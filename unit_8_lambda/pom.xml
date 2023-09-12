@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ua.com.alevel</groupId>
-    <artifactId>unit_4_finish_oop</artifactId>
+    <artifactId>unit_8_lambda</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,16 +15,8 @@
         <java.version>17</java.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
-        </dependency>
-    </dependencies>
-
     <build>
-        <finalName>finish_oop</finalName>
+        <finalName>string</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
