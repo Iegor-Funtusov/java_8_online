@@ -23,8 +23,6 @@ export class StudentNewComponent {
   constructor(private fb: FormBuilder, private service: StudentService, private router: Router) {}
 
   create(): void {
-    console.log('this.form.valid', this.form.valid)
-    console.log('this.form', this.form.value)
     if (this.form.valid) {
       let data: StudentData = { ...this.form.value };
       this.service.create(data)
