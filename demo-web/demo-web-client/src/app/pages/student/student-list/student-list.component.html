@@ -1,0 +1,33 @@
+<div class="card">
+  <div class="card-header">
+    All Students
+  </div>
+  <div class="card-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>id</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>age</th>
+        <th>details</th>
+        <th>delete</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let student of students$ | async">
+        <td>{{ student.id }}</td>
+        <td>{{ student.firstName }}</td>
+        <td>{{ student.lastName }}</td>
+        <td>{{ student.age }}</td>
+        <td>
+          <span class="material-symbols-rounded" role="button" (click)="details(student.id)">info</span>
+        </td>
+        <td>
+          <span class="material-symbols-rounded" role="button" (click)="delete(student.id)">delete</span>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

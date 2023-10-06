@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-header">
+    Student details
+  </div>
+  <div class="card-body">
+    <table class="table" *ngIf="student$ | async as student">
+      <tr>
+        <td>First name</td>
+        <td>{{ student.firstName }}</td>
+      </tr>
+      <tr>
+        <td>Last name</td>
+        <td>{{ student.lastName }}</td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td>{{ student.age }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
