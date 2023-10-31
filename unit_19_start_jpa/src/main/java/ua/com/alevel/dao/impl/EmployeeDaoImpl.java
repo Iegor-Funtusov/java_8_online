@@ -3,6 +3,7 @@ package ua.com.alevel.dao.impl;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import jakarta.persistence.Query;
 import ua.com.alevel.dao.EmployeeDao;
 import ua.com.alevel.entity.Employee;
 
@@ -44,6 +45,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
     @Override
     public Collection<Employee> findAll() {
         // HQL -> JPQL
+        Query query = entityManager.createQuery("select d from Department d where d.name like ''");
         return entityManager.createQuery("select e from Employee e").getResultList();
     }
 }

@@ -1,4 +1,5 @@
 package ua.com.alevel.dao.impl;
+import jakarta.persistence.Query;
 import ua.com.alevel.dao.DepartmentDao;
 import ua.com.alevel.entity.Department;
 
