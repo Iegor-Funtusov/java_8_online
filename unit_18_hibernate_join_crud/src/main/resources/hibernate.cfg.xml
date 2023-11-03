@@ -13,6 +13,7 @@
         <property name="connection.pool_size">3</property>
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
         <property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <property name="hibernate.connection.isolation">4</property>
         <property name="hbm2ddl.auto">update</property>
 
         <mapping class="ua.com.alevel.entity.Employee"></mapping>
@@ -20,3 +21,7 @@
         <mapping class="ua.com.alevel.entity.Salary"></mapping>
     </session-factory>
 </hibernate-configuration>
+<!--        1: READ UNCOMMITTED-->
+<!--        2: READ COMMITTED-->
+<!--        4: REPEATABLE READ-->
+<!--        8: SERIALIZABLE-->

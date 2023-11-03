@@ -30,7 +30,7 @@ public class HibernateJoinCrudTest {
 //        createDepartmentAndEmployeeAndSalary();
 //        observeDepartment();
 //        detach();
-        remove();
+//        remove();
     }
 
     private void createDepartment() {

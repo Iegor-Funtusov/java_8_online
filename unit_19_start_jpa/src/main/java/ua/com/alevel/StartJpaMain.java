@@ -10,10 +10,10 @@ public class StartJpaMain {
 
         EmployeeDao employeeDao = new EmployeeDaoImpl();
 
-        Employee employee = new Employee();
-        employee.setFirstName("qq");
-        employee.setLastName("QQ");
-        employee.setAge(25);
-        employeeDao.create(employee);
+//        Employee employee = new Employee();
+//        employee.setFirstName("qq");
+//        employee.setLastName("QQ");
+//        employee.setAge(25);
+//        employeeDao.create(employee);
     }
 }
