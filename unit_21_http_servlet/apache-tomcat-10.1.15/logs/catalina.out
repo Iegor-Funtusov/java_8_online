@@ -1,0 +1,401 @@
+14-Nov-2023 20:36:21.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 20:36:21.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:36:21.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:36:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 20:36:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 20:36:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 20:36:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:36:21.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 20:36:21.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 20:36:21.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:36:21.390 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [209] milliseconds
+14-Nov-2023 20:36:21.406 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 20:36:21.406 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 20:36:21.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/docs]
+14-Nov-2023 20:36:21.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/docs] has finished in [123] ms
+14-Nov-2023 20:36:21.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/manager]
+14-Nov-2023 20:36:21.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/manager] has finished in [14] ms
+14-Nov-2023 20:36:21.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/examples]
+14-Nov-2023 20:36:21.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/examples] has finished in [88] ms
+14-Nov-2023 20:36:21.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/ROOT]
+14-Nov-2023 20:36:21.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/ROOT] has finished in [7] ms
+14-Nov-2023 20:36:21.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/host-manager]
+14-Nov-2023 20:36:21.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/host-manager] has finished in [8] ms
+14-Nov-2023 20:36:21.653 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:36:21.657 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [266] milliseconds
+14-Nov-2023 20:37:15.670 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2023 20:37:15.671 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:37:15.672 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2023 20:37:15.682 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:37:15.684 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:58:28.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:58:28.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 20:58:28.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:58:28.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 20:58:28.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 20:58:28.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 20:58:28.913 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:58:28.924 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [197] milliseconds
+14-Nov-2023 20:58:28.940 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 20:58:28.940 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 20:58:28.948 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 20:58:29.063 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 20:58:29.081 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [132] ms
+14-Nov-2023 20:58:29.082 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 20:58:29.086 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [161] milliseconds
+StudentReviewController.doGet
+14-Nov-2023 21:10:54.953 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2023 21:10:54.953 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:10:54.956 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2023 21:10:54.964 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:10:54.966 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:12:23.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:12:23.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 21:12:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 21:12:23.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 21:12:23.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:12:23.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:12:23.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 21:12:23.592 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 21:12:23.690 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:12:23.701 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [188] milliseconds
+14-Nov-2023 21:12:23.717 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 21:12:23.717 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 21:12:23.727 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 21:12:24.289 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 21:12:24.307 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [580] ms
+14-Nov-2023 21:12:24.308 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:12:24.313 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [611] milliseconds
+14-Nov-2023 21:12:34.408 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 21:12:34.695 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 21:12:34.763 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 21:12:34.765 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 21:12:34.765 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 21:12:34.765 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 21:12:34.765 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 21:12:34.767 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 21:12:34.962 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 21:12:35.370 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@124e8011] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+14-Nov-2023 21:16:18.210 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2023 21:16:18.211 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:16:18.212 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2023 21:16:18.215 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [unit_21_http_servlet] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Nov-2023 21:16:18.215 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [unit_21_http_servlet] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14-Nov-2023 21:16:18.215 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [unit_21_http_servlet] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14-Nov-2023 21:16:18.218 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:16:18.220 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:17:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 21:17:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 21:17:11.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 21:17:11.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:17:11.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:17:11.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 21:17:11.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:17:11.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 21:17:11.824 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 21:17:11.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:17:11.933 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [187] milliseconds
+14-Nov-2023 21:17:11.947 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 21:17:11.947 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 21:17:11.954 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 21:17:12.526 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 21:17:12.543 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [589] ms
+14-Nov-2023 21:17:12.544 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:17:12.549 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [615] milliseconds
+14-Nov-2023 21:17:15.348 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 21:17:15.615 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 21:17:15.679 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 21:17:15.682 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 21:17:15.682 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 21:17:15.682 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 21:17:15.682 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 21:17:15.684 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 21:17:15.865 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 21:17:16.264 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4f5f95ec] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+e = Cannot invoke "java.util.Collection.iterator()" because "departments" is null
+14-Nov-2023 21:20:06.566 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2023 21:20:06.567 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:20:06.568 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2023 21:20:06.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [unit_21_http_servlet] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Nov-2023 21:20:06.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [unit_21_http_servlet] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14-Nov-2023 21:20:06.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [unit_21_http_servlet] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+14-Nov-2023 21:20:06.575 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:20:06.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:20:30.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:20:30.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:20:30.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 21:20:30.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 21:20:30.731 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:20:30.742 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [191] milliseconds
+14-Nov-2023 21:20:30.756 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 21:20:30.756 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 21:20:30.764 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 21:20:31.292 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 21:20:31.309 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [546] ms
+14-Nov-2023 21:20:31.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:20:31.314 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [572] milliseconds
+14-Nov-2023 21:20:35.668 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 21:20:35.938 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 21:20:36.001 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 21:20:36.003 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 21:20:36.003 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 21:20:36.004 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 21:20:36.004 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 21:20:36.006 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 21:20:36.174 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 21:20:36.561 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4f5f95ec] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: select department0_.id as id1_1_, department0_.name as name2_1_ from departments department0_
+Hibernate: select department0_.id as id1_1_, department0_.name as name2_1_ from departments department0_
+14-Nov-2023 21:28:14.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 21:28:14.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:28:14.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 21:28:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 21:28:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 21:28:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:28:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:28:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 21:28:15.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 21:28:15.139 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:28:15.150 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [233] milliseconds
+14-Nov-2023 21:28:15.165 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 21:28:15.165 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 21:28:15.173 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 21:28:15.801 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 21:28:15.838 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [665] ms
+14-Nov-2023 21:28:15.840 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:28:15.847 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [696] milliseconds
+14-Nov-2023 21:28:20.333 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 21:28:20.609 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 21:28:20.672 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 21:28:20.674 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 21:28:20.674 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 21:28:20.674 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 21:28:20.674 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 21:28:20.676 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 21:28:20.857 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 21:28:21.276 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a359652] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: select department0_.id as id1_1_, department0_.name as name2_1_ from departments department0_
+14-Nov-2023 21:54:17.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 21:54:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 21:54:17.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 21:54:17.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:54:17.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 21:54:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 21:54:17.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 21:54:18.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:54:18.066 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [190] milliseconds
+14-Nov-2023 21:54:18.080 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 21:54:18.080 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 21:54:18.088 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 21:54:18.694 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 21:54:18.730 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [641] ms
+14-Nov-2023 21:54:18.734 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 21:54:18.754 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [688] milliseconds
+14-Nov-2023 21:54:22.275 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 21:54:22.543 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 21:54:22.608 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 21:54:22.610 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 21:54:22.610 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 21:54:22.610 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 21:54:22.611 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 21:54:22.613 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 21:54:22.790 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 21:54:23.187 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3045060b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+14-Nov-2023 22:02:35.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+14-Nov-2023 22:02:35.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+14-Nov-2023 22:02:35.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/egorfuntusov/Library/Java/JavaVirtualMachines/Java17/Contents/Home
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 22:02:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/conf/logging.properties
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15
+14-Nov-2023 22:02:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/temp
+14-Nov-2023 22:02:35.769 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/egorfuntusov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Nov-2023 22:02:35.872 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 22:02:35.883 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [190] milliseconds
+14-Nov-2023 22:02:35.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2023 22:02:35.898 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+14-Nov-2023 22:02:35.905 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war]
+14-Nov-2023 22:02:36.499 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Nov-2023 22:02:36.534 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/egorfuntusov/Projects/A-Level/java_8_online/unit_21_http_servlet/apache-tomcat-10.1.15/webapps/unit_21_http_servlet.war] has finished in [629] ms
+14-Nov-2023 22:02:36.538 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2023 22:02:36.552 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [668] milliseconds
+14-Nov-2023 22:02:44.808 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.15.Final
+14-Nov-2023 22:02:45.097 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14-Nov-2023 22:02:45.159 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-Nov-2023 22:02:45.162 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/java_8]
+14-Nov-2023 22:02:45.162 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+14-Nov-2023 22:02:45.162 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-Nov-2023 22:02:45.162 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001007: JDBC isolation level: REPEATABLE_READ
+14-Nov-2023 22:02:45.165 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 3 (min=1)
+14-Nov-2023 22:02:45.342 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14-Nov-2023 22:02:45.749 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32a2c568] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: select department0_.id as id1_1_, department0_.name as name2_1_ from departments department0_
