@@ -27,12 +27,14 @@ public class DepartmentReviewController extends HttpServlet {
             printWriter.write("<body>");
             printWriter.write("<h1>");
             printWriter.write("Review all departments");
+            printWriter.write("</h1>");
             printWriter.write("<table>");
             printWriter.write("<tr>");
             printWriter.write("<th>Id</th>");
             printWriter.write("<th>Name</th>");
+            printWriter.write("<th>Delete</th>");
+            printWriter.write("<th>Update</th>");
             printWriter.write("</tr>");
-
             for (Department department : departments) {
                 printWriter.write("<tr>");
                 printWriter.write("<td>");
@@ -41,11 +43,18 @@ public class DepartmentReviewController extends HttpServlet {
                 printWriter.write("<td>");
                 printWriter.write(department.getName());
                 printWriter.write("</td>");
+
+                printWriter.write("<td>");
+                printWriter.write("<a href=\"/unit_21_http_servlet/departments-delete?id=" + department.getId() + "\">delete</a>");
+                printWriter.write("</td>");
+                printWriter.write("<td>");
+                printWriter.write("<a href=\"/unit_21_http_servlet/departments-update?id=" + department.getId() + "\">update</a>");
+                printWriter.write("</td>");
+
                 printWriter.write("</tr>");
             }
-
             printWriter.write("</table>");
-            printWriter.write("</h1>");
+            printWriter.write("<a href=\"/unit_21_http_servlet/departments-new\">New departments</a>");
             printWriter.write("</body>");
             printWriter.write("</html>");
         } catch (Exception e) {

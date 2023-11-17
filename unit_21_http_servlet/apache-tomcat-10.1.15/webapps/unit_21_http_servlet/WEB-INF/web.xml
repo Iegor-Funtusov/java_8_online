@@ -12,9 +12,33 @@
         <servlet-name>departmentReviewController</servlet-name>
         <servlet-class>ua.com.alevel.controller.DepartmentReviewController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>departmentCreateController</servlet-name>
+        <servlet-class>ua.com.alevel.controller.DepartmentCreateController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>departmentDeleteController</servlet-name>
+        <servlet-class>ua.com.alevel.controller.DepartmentDeleteController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>departmentUpdateController</servlet-name>
+        <servlet-class>ua.com.alevel.controller.DepartmentUpdateController</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>departmentReviewController</servlet-name>
         <url-pattern>/departments</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>departmentCreateController</servlet-name>
+        <url-pattern>/departments-new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>departmentDeleteController</servlet-name>
+        <url-pattern>/departments-delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>departmentUpdateController</servlet-name>
+        <url-pattern>/departments-update</url-pattern>
     </servlet-mapping>
 </web-app>

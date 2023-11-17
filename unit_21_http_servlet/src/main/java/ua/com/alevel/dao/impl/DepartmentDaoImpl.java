@@ -48,7 +48,10 @@ public class DepartmentDaoImpl implements DepartmentDao {
     public void delete(Long id) {
         Transaction transaction = null;
         try(Session session = sessionFactory.getCurrentSession()) {
-
+            transaction = session.beginTransaction();
+            Department department = session.get(Department.class, id);
+            session.delete(department);
+            transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
