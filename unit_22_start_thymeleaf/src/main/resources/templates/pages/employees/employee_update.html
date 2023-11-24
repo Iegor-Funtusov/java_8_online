@@ -8,8 +8,7 @@
 </head>
 <body>
 <div layout:fragment="main_content">
-  <form method="post" th:action="@{/employees/update}" th:object="${employee}">
-    <input type="hidden" class="form-control" id="exampleInputId" th:field="*{id}" th:value="${employee.getId()}">
+  <form method="post" th:action="@{'/employees/update/' + ${employee.getId()}}" th:object="${employee}">
     <div class="mb-3">
       <label for="exampleInputFirstName" class="form-label">First name</label>
       <input type="text" class="form-control" id="exampleInputFirstName" th:field="*{firstName}" th:value="${employee.getFirstName()}">
