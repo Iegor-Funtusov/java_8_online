@@ -17,6 +17,7 @@ import ua.com.alevel.util.WebRequestUtil;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 @Service
 @AllArgsConstructor
@@ -53,9 +54,10 @@ public class EmployeeFacadeImpl implements EmployeeFacade {
     }
 
     @Override
-    public PageResponseDto<EmployeeResponseDto> findAll(WebRequest webRequest) {
+    public PageResponseDto<EmployeeResponseDto> findAll(WebRequest webRequest, Map<String, Object> paramMap) {
         PageResponseDto<EmployeeResponseDto> pageResponseDto = new PageResponseDto<>();
         PageRequestDto pageRequestDto = WebRequestUtil.generatePageRequestDto(webRequest);
+        pageRequestDto.setParamMap(paramMap);
         Page<Employee> page = employeeService.findAll(pageRequestDto);
         pageResponseDto.setCurrentPage(pageRequestDto.getPage());
         pageResponseDto.setPageSize(page.getSize());

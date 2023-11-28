@@ -1,6 +1,7 @@
 package ua.com.alevel.controller;
 
 import lombok.AllArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -14,6 +15,7 @@ import ua.com.alevel.entity.Employee;
 import ua.com.alevel.facade.EmployeeFacade;
 import ua.com.alevel.service.EmployeeService;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -25,7 +27,14 @@ public class EmployeeController {
 
     @GetMapping
     public String allEmployees(Model model, WebRequest request) {
-        PageResponseDto<EmployeeResponseDto> page = employeeFacade.findAll(request);
+        Map<String, Object> map = new HashMap<>();
+        String departmentIdParameter = request.getParameter("departmentId");
+        if (StringUtils.isNotBlank(departmentIdParameter)) {
+            Long departmentId = Long.parseLong(departmentIdParameter);
+            map.put("departmentId", departmentId);
+            model.addAttribute("departmentId", departmentId);
+        }
+        PageResponseDto<EmployeeResponseDto> page = employeeFacade.findAll(request, map);
         model.addAttribute("pageData", page);
         return "pages/employees/employee_all";
     }
