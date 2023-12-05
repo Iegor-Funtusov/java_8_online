@@ -54,3 +54,19 @@ function submitRequest(sortBy, sortType, currentPage, pageSize, departmentId) {
         }
     }
 }
+
+var student = {
+    name: 'fsafasd',
+    age: 30
+}
+
+var students = [
+    {
+        name: 'fsafasd',
+        age: 30
+    },
+    {
+        name: 'fsafasd',
+        age: 30
+    }
+]
