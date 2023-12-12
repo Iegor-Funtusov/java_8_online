@@ -1,0 +1,22 @@
+<ng-container *ngIf="{
+  data: employees$ | async
+} as config">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let employee of config.data?.items">
+      <td>{{ employee.firstName }}</td>
+      <td>{{ employee.secondName }}</td>
+      <td>{{ employee.age }}</td>
+      <td>{{ employee.salary }}</td>
+    </tr>
+    </tbody>
+  </table>
+</ng-container>
