@@ -10,3 +10,7 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
   ]
 };
+
+export const httpConfig = {
+  apiUrl: 'http://localhost:8080'
+}

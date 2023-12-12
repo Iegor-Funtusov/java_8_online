@@ -1,5 +1,6 @@
-export interface EmployeeData {
-  id: number;
+import { ApiResponseData } from "./api-response.data";
+
+export interface EmployeeResponseData extends ApiResponseData {
   firstName: string;
   secondName: string;
   age: number;
