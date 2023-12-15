@@ -1,0 +1,8 @@
+package ua.com.alevel.exception;
+
+public class EntityUnexistsException extends RuntimeException {
+
+    public EntityUnexistsException(String msg) {
+        super(msg);
+    }
+}
