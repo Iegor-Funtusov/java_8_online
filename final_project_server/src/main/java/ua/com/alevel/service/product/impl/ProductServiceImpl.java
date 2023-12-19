@@ -1,4 +1,4 @@
-package ua.com.alevel.service.impl;
+package ua.com.alevel.service.product.impl;
 
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
@@ -7,8 +7,10 @@ import ua.com.alevel.exception.EntityNotFoundException;
 import ua.com.alevel.exception.EntityUnexistsException;
 import ua.com.alevel.exception.NotValidFieldDataException;
 import ua.com.alevel.persistence.entity.product.Product;
-import ua.com.alevel.persistence.repositoty.ProductRepository;
-import ua.com.alevel.service.ProductService;
+import ua.com.alevel.persistence.repositoty.product.ProductRepository;
+import ua.com.alevel.service.product.ProductService;
+
+import java.util.List;
 
 import static ua.com.alevel.util.ExceptionUtil.*;
 
@@ -36,5 +38,10 @@ public class ProductServiceImpl implements ProductService {
             throw new NotValidFieldDataException(NOT_VALID_ID_EXCEPTION);
         }
         return productRepository.findById(id).orElseThrow(() -> new EntityNotFoundException(ENTITY_NOT_FOUND_EXCEPTION));
+    }
+
+    @Override
+    public List<Product> findAll() {
+        return productRepository.findAll();
     }
 }

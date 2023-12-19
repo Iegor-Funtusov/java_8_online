@@ -10,8 +10,8 @@ import ua.com.alevel.exception.EntityNotFoundException;
 import ua.com.alevel.exception.EntityUnexistsException;
 import ua.com.alevel.exception.NotValidFieldDataException;
 import ua.com.alevel.persistence.entity.product.Product;
-import ua.com.alevel.persistence.repositoty.ProductRepository;
-import ua.com.alevel.service.impl.ProductServiceImpl;
+import ua.com.alevel.persistence.repositoty.product.ProductRepository;
+import ua.com.alevel.service.product.impl.ProductServiceImpl;
 
 import java.util.Optional;
 
