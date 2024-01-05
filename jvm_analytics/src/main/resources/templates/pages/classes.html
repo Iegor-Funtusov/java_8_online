@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div layout:fragment="main_content">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h3>
+                        All classes
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-sm table-hover table-striped">
+                <tr>
+                    <th>Jar or directory class
+                    </th>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <th>Key</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr th:each="classPath : ${classPathMap}">
+                                <td th:text="${classPath.getKey()}"></td>
+                                <td>
+                                    <p>
+                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            show all classes
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <table class="table">
+                                                <tr th:each="className : ${classPath.getValue()}">
+                                                    <td class="text-break" th:text="${className}"></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

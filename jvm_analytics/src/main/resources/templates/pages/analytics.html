@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div layout:fragment="main_content">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h3>
+                        Virtual machine info
+                    </h3>
+                </div>
+<!--                <div>-->
+<!--                    <a type="button" class="btn btn-primary" th:href="@{/departments/new}">new department</a>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-sm table-hover table-striped">
+                <tr>
+                    <th>Display name
+                    </th>
+                    <td th:text="${context.getDisplayName()}"></td>
+                </tr>
+                <tr>
+                    <th>Pid
+                    </th>
+                    <td th:text="${context.getPid()}"></td>
+                </tr>
+                <tr>
+                    <th>Provider type
+                    </th>
+                    <td th:text="${context.getProviderType()}"></td>
+                </tr>
+                <tr>
+                    <th>Provider name
+                    </th>
+                    <td th:text="${context.getProviderName()}"></td>
+                </tr>
+                <tr>
+                    <th>Agent properties
+                    </th>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <th>Key</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr th:each="agent : ${context.getAgentProperties()}">
+                                <td th:text="${agent.getKey()}"></td>
+                                <td th:text="${agent.getValue()}" class="text-break"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th>System properties
+                    </th>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <th>Key</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr th:each="agent : ${context.getSystemProperties()}">
+                                <td th:text="${agent.getKey()}"></td>
+                                <td th:text="${agent.getValue()}" class="text-break"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <a type="button" class="btn btn-light"
+                           th:href="@{'/analytics/classes?pidId=' + ${context.getPid()}}">Class path list</a>
+                    </th>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <th>Class path</th>
+                            </tr>
+                            <tr th:each="classPath : ${context.getClassPathList()}">
+                                <td th:text="${classPathStat.current}" class="text-break"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
