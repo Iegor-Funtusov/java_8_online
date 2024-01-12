@@ -1,4 +1,4 @@
-package ua.com.alevel.api.controller.product;
+package ua.com.alevel.api.controller.open.product;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import ua.com.alevel.facade.ProductPlpFacade;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/api/open/products")
 @AllArgsConstructor
 public class ProductController {
 

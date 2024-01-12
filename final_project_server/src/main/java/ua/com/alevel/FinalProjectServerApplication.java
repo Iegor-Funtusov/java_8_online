@@ -6,7 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import ua.com.alevel.persistence.entity.user.Admin;
 import ua.com.alevel.persistence.entity.user.Personal;
+import ua.com.alevel.persistence.repositoty.user.AdminRepository;
 import ua.com.alevel.persistence.repositoty.user.PersonalRepository;
 
 @SpringBootApplication
@@ -18,12 +20,20 @@ public class FinalProjectServerApplication {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private AdminRepository adminRepository;
+
     public static void main(String[] args) {
         SpringApplication.run(FinalProjectServerApplication.class, args);
     }
 
-    @EventListener(ApplicationReadyEvent.class)
+//    @EventListener(ApplicationReadyEvent.class)
     public void run() {
+
+        Admin admin = new Admin();
+        admin.setLogin("login@mail.com");
+        admin.setPassword(passwordEncoder.encode("password"));
+        adminRepository.save(admin);
 
 //        String password = "Test123!";
 //        String hash1 = "$2a$10$/RBu35SncGjTUoxSwrx1cObhSA7uA9Kx/NlKfCiVFjvt5ibILJEeW";
