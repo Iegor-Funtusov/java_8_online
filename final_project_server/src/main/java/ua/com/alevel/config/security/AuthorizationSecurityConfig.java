@@ -41,7 +41,7 @@ public class AuthorizationSecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/api/open/**", "/api/auth/**", "/swagger-ui.html").permitAll()
-                        .requestMatchers("/api/personal/**").hasAnyRole(PERSONAL.name())
+                        .requestMatchers("/api/personal/**", "/api/personal/cart/**").hasAnyRole(PERSONAL.name())
                         .requestMatchers(GET, "/api/personal/**").hasAuthority(PERSONAL_READ.name())
                         .requestMatchers(POST, "/api/personal/**").hasAuthority(PERSONAL_CREATE.name())
                         .requestMatchers(PUT, "/api/personal/**").hasAuthority(PERSONAL_UPDATE.name())

@@ -6,6 +6,8 @@ import {BehaviorSubject, filter, map, Observable, Subscription, switchMap} from 
 
 import { PdpService } from "../../services/pdp.service";
 import { ProductPdp } from "../../models/product-pdp";
+import {AuthService} from "../../services/auth.service";
+import {CartService} from "../../services/cart.service";
 
 export interface PriceVariant {
   productId: number;
@@ -34,6 +36,7 @@ export class PdpComponent implements OnInit, OnDestroy {
 
   readonly productPdp$: Observable<ProductPdp | undefined> = this._productPdpSub$.asObservable();
   readonly price$: Observable<PriceVariant | undefined> = this._priceSub$.asObservable();
+  readonly isLoggedIn$: Observable<boolean> = this._authService.isLoggedIn();
 
   ssdSet: Set<number> = new Set<number>();
   ramSet: Set<number> = new Set<number>();
@@ -46,7 +49,9 @@ export class PdpComponent implements OnInit, OnDestroy {
   constructor(
     private _router: Router,
     private _fb: FormBuilder,
-    private _pdpService: PdpService) {
+    private _pdpService: PdpService,
+    private _authService: AuthService,
+    private _cartService: CartService) {
   }
 
   ngOnInit(): void {
@@ -107,7 +112,15 @@ export class PdpComponent implements OnInit, OnDestroy {
 
   shopNow(productId: number | undefined): void {
     if (productId) {
-      console.log('productId', productId)
+      console.log('productId', productId);
+      this._subscription.add(
+        this._cartService.addToCart(productId)
+          .subscribe(
+            () => this._router.navigateByUrl('/cart'),
+            (error) => console.log('error', error)
+          )
+      );
+
     }
   }
 

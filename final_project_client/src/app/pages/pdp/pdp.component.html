@@ -73,9 +73,20 @@ priceVariant: price$ | async
             </div>
             <div class="col-10 mt-2" *ngIf="config.priceVariant?.price">
               <button
+                *ngIf="isLoggedIn$ | async"
                 type="button"
                 class="btn btn-primary btn-lg button-variant me-2"
-                (click)="shopNow(config?.priceVariant?.productId)">Shop now by ${{ config.priceVariant?.price }}</button>
+                (click)="shopNow(config?.priceVariant?.productId)">
+                Shop now by ${{ config.priceVariant?.price }}
+              </button>
+              <button
+                *ngIf="!(isLoggedIn$ | async)"
+                disabled
+                type="button"
+                class="btn btn-primary btn-lg button-variant me-2"
+                (click)="shopNow(config?.priceVariant?.productId)">
+                Shop now by ${{ config.priceVariant?.price }}
+              </button>
             </div>
             <div class="col-10 mt-2" *ngIf="!config.priceVariant?.price">
               Not configured
